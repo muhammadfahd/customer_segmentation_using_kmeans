@@ -3,21 +3,19 @@ This project is a customer segmentation analysis using K-means clustering. The g
 This repo contain following 
 * [Unsuervised Learning K-means Clustering in Detail](./unsupervised%20learning%20kmeans%20clustering.md)
 * Implementing k-means clustering using 
-  * Built from scratch 
-  * using scikit library
+  * [Built from scratch](https://github.com/muhammadfahd/customer_segmentation_using_kmeans/blob/main/k_measn_from_scratch.py) 
+  * [using scikit library](https://github.com/muhammadfahd/customer_segmentation_using_kmeans/blob/main/k_means_using_scikit.py)
 * [Building a project with customer segmentation](./customer_Segmentation.ipynb)
-* Streamit Lit App
+* Streamit Lit App [Link](https://huggingface.co/spaces/mfahadkhan/cutsomer_segmentation)
 ---
 ## 🧑‍💻 K-Means Clustering Algorithm
 K-means clustering is an unsupervised machine learning algorithm used to partition data into K distinct clusters. The objective of the algorithm is to minimize the within-cluster variance, so the points within each cluster are as similar as possible.
 For detailed checkout [here](./unsupervised%20learning%20kmeans%20clustering.md)
 
---- 
-
 ## 🧑‍💻 Implementation
 1. **K-Means Clustering from Scratch**
 We start by implementing K-means clustering from scratch to understand the internal workings of the algorithm [here](./k_measn_from_scratch.py)
-<br>
+
 2. **Using Built-in Library (Scikit-Learn)**
 To simplify the clustering process, we also use the built-in KMeans algorithm from Scikit-Learn [here](./k_means_using_scikit.py)
 
@@ -49,7 +47,7 @@ We created a Streamlit app to provide an interactive user interface for predicti
 
 ---
 ## 🛠️ Technologies Used
-**Python**: Programming language for implementing machine learning algorithms.
-**Scikit-Learn**: Library for machine learning models (K-means clustering).
-**Streamlit**: Framework to create the interactive web app.
-**Matplotlib**: Library for visualizations.
+* **Python**: Programming language for implementing machine learning algorithms.
+* **Scikit-Learn**: Library for machine learning models (K-means clustering).
+* **Streamlit**: Framework to create the interactive web app.
+* **Matplotlib**: Library for visualizations.
